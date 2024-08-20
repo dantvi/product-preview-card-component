@@ -17,8 +17,7 @@ body {
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 1.4rem;
-    line-height: 2.3rem;
+    font-size: 14px;
     letter-spacing: 0;
     color: var(--dark-grayish-blue);
     background: var(--cream);
@@ -40,4 +39,24 @@ section {
 img {
     width: 100%;
     border-radius: 10px 10px 0 0;
+}
+
+.main-content {
+    margin: 0 24px;
+}
+
+.category {
+    margin: 20px 0 12px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: auto;
+    letter-spacing: 5px;
+}
+
+h1 {
+    margin-bottom: 16px;
+    color: var(--very-dark-blue);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
 }
