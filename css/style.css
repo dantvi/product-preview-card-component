@@ -60,3 +60,25 @@ h1 {
     font-weight: 700;
     font-size: 32px;
 }
+
+p {
+    line-height: 23px;
+    margin-bottom: 24px;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+}
+
+.sale-price {
+    color: var(--dark-cyan);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.regular-price {
+    margin-left: 19px;
+    text-decoration: line-through;
+}
