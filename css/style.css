@@ -21,4 +21,18 @@ body {
     line-height: 2.3rem;
     letter-spacing: 0;
     color: var(--dark-grayish-blue);
+    background: var(--cream);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: var(--white);
+    width: 90%;
+    border-radius: 10px;
 }
