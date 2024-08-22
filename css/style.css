@@ -106,3 +106,23 @@ button:hover {
     margin-right: 10px;
     vertical-align:bottom;
 }
+
+@media screen and (min-width: 600px) {
+    .card {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 600px;
+    }
+
+    .img-container {
+        width: 300px;
+        background: url(../images/image-product-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    img {
+        display: none;
+    }
+}
