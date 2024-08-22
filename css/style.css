@@ -105,4 +105,46 @@ button:hover {
     width: 16px;
     margin-right: 10px;
     vertical-align:bottom;
+    overflow: visible;
+}
+
+@media screen and (min-width: 600px) {
+    .card {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 600px;
+    }
+
+    .img-container {
+        width: 300px;
+        background: url(../images/image-product-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .img-container img {
+        display: none;
+    }
+
+    .main-content {
+        margin: 0 32px;
+    }
+
+    .category {
+        margin: 32px 0 20px 0;
+    }
+
+    h1 {
+        margin-bottom: 24px;
+    }
+
+    p {
+        margin-bottom: 29px;
+    }
+
+    button {
+        margin: 30px 0 32px 0;
+    }
 }
